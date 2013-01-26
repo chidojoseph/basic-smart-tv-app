@@ -1,13 +1,18 @@
-*
+body
 {
 	padding: 0;
 	margin: 0;
 	border: 0;
-}
-
-/* Layout */
-body
-{
 	width: 960px;
 	height: 540px;
+}
+
+#content {
+	position:absolute;
+	top:50px;
+	left:50px;
+	height:50px;
+	width:300px;
+	display:block;
+	background-color:red;
 }
